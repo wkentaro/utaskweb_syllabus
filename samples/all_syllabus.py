@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 #-*- coding:utf-8 -*-
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__))+'/../')
 from utaskweb import utaskweb
 import getpass
 import csv
 
-def main():
+def all_syllabus():
     print("Starting Crawling https://zkyomu.c.u-tokyo.ac.jp...")
     username = input("ID:")
     password = getpass.getpass("パスワード:")
@@ -34,4 +37,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    all_syllabus()
