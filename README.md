@@ -1,8 +1,16 @@
 utaskweb
 ========
 
-using the class utaskweb, you can do login, crawling and scraping the contents in [UTask-Web](http://www.c.u-tokyo.ac.jp/zenki/), which is website for The University of Tokyo.
+Using the class utaskweb, you can do login, crawling and scraping the contents in 
+[UTask-Web](http://www.c.u-tokyo.ac.jp/zenki/),  
+which is website for The University of Tokyo.
 
+How to Use
+-------
+You just import utaskweb.py in your script.
+
+    >>> import utaskweb
+    >>> utask.login_utaskweb(username, password, code_number)
 
 About Samples
 --------
@@ -11,7 +19,7 @@ About Samples
 This is to get all syllabus data from UTask-Web as a csv file named out.scv
 All you have to do is below.
 
-python3 all_syllabus.py
+    python3 all_syllabus.py
 
 _-Notice-_
 
