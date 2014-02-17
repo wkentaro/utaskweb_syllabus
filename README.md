@@ -10,6 +10,7 @@ How to Use
 You just import utaskweb.py in your script.
 
     >>> import utaskweb
+    >>> utask = utaskweb()
     >>> utask.login_utaskweb(username, password, code_number)
 
 About Samples
